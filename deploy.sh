@@ -4,7 +4,7 @@
  # @Author: linxiaofen
  # @Date: 2020-09-15 16:35:28
  # @LastEditors: linxiaofen
- # @LastEditTime: 2020-09-22 18:09:28
+ # @LastEditTime: 2020-09-22 18:13:49
 ### 
 #!/usr/bin/env sh
 
@@ -29,6 +29,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:itclancode.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/liulinfen/liulinfen.github.io.git master:gh-pages
+git push -f https://github.com/liulinfen/personal-blog.git master:gh-pages
 
 cd -
