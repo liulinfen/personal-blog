@@ -4,7 +4,7 @@
  # @Author: linxiaofen
  # @Date: 2020-09-15 16:35:28
  # @LastEditors: linxiaofen
- # @LastEditTime: 2020-09-22 18:13:49
+ # @LastEditTime: 2020-09-22 18:14:36
 ### 
 #!/usr/bin/env sh
 
@@ -18,7 +18,7 @@ npm run docs:build
 cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
-# echo 'blog.llf.zone' > CNAME
+echo 'blog.llf.zone' > CNAME
 
 git init
 git add -A
