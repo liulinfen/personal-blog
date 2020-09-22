@@ -4,7 +4,7 @@
  * @Author: linxiaofen
  * @Date: 2020-09-14 15:22:30
  * @LastEditors: linxiaofen
- * @LastEditTime: 2020-09-22 17:08:32
+ * @LastEditTime: 2020-09-22 18:59:13
  */
 module.exports = {
   // base: '/vuepress-blog/',
@@ -16,7 +16,6 @@ module.exports = {
   ],
   host: '0.0.0.0',
   port: '8090',
-  dest: '.vuepress/dist',
   markdown: {
     lineNumbers: true
   },
@@ -53,9 +52,9 @@ module.exports = {
       }
     ],
     // displayAllHeaders: true,
-    repo: 'https://github.com/liulinfen/vuepress-blog',
+    repo: 'https://github.com/liulinfen/personal-blog',
     repoLabel: '查看源码',
-    docsRepo: 'https://github.com/liulinfen/vuepress-blog/blob/master/docs/README.md',
+    docsRepo: 'https://github.com/liulinfen/personal-blog/blob/master/docs/README.md',
     // 假如文档不是放在仓库的根目录下：
     docsDir: 'docs',
     // 假如文档放在一个特定的分支下：
