@@ -11,5 +11,9 @@
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.5.4",
     "vuepress": "^1.5.4"
+  },
+  "dependencies": {
+    "async-validator": "1.11.5",
+    "element-ui": "^2.14.0"
   }
 }

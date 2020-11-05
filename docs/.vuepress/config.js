@@ -4,7 +4,7 @@
  * @Author: linxiaofen
  * @Date: 2020-09-14 15:22:30
  * @LastEditors: linxiaofen
- * @LastEditTime: 2020-09-22 18:59:13
+ * @LastEditTime: 2020-11-05 18:36:04
  */
 module.exports = {
   // base: '/vuepress-blog/',
@@ -30,10 +30,11 @@ module.exports = {
     logo: '/logo.png',
     nav: [
       { text: '首页', link: '/' },
-      { text: '技术', items: [
+      { text: '技术', link: '', items: [
         { text: '小程序', link: 'https://developers.weixin.qq.com/miniprogram/dev/framework/' },
         {
           text: '前端基础', 
+          link: 'https://developers.weixin.qq.com/miniprogram/dev/framework/',
           items: [
             { text: 'css', link: 'https://www.runoob.com/css/css-tutorial.html' },
             { text: 'html', link: 'https://www.w3school.com.cn/html/index.asp' },
@@ -45,6 +46,7 @@ module.exports = {
       { text: '读书', link: '/reading/' },
       {
         text: '社交',
+        link: '',
         items: [
           { text: 'Github', link: 'https://github.com/liulinfen' },
           { text: 'Gitee', link: 'https://gitee.com/linxiaofen' },
